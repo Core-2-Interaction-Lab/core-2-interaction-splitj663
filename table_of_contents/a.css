@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'ag-bold';
+  src: url('AppleGaramond-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ag-light';
+  src: url('AppleGaramondLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('AppleGaramond-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('AppleGaramond.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('AppleGaramondLight-Italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('AppleGaramond-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: 'ag-light', sans-serif;
+  font-size: 24px;
+  background-color: goldenrod;
+  margin-left: 5vw;
+}
+
+.bold {
+  font-family: 'ag-bold', sans-serif;
+}
+
+
+
+
