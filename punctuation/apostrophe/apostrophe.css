@@ -59,11 +59,18 @@ details {
   font-weight: normal;
   max-width: 300px;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 details:hover {
   transform: scale(1.05);
+  width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 0 1px 13px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.5)  ; 
 }
 
 summary {
