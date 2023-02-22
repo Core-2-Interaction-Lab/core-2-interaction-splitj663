@@ -66,6 +66,17 @@ body {
 }
 
 
+.white_text {
+  color: white;
+  margin-bottom:200px;
+}
+
+.audio {
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
 
 .nav {
   margin-top: 780px;
