@@ -76,6 +76,12 @@ body {
   margin-bottom: 30px;
 }
 
+.quiz {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 
 
 .nav {
@@ -85,6 +91,7 @@ body {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 
@@ -93,6 +100,7 @@ body {
   color: rgb(35, 35, 251);
   cursor: pointer;
   transition: all .1s ease-in-out;
+
 }
 
 
