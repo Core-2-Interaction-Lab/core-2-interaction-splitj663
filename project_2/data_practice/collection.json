@@ -1,0 +1,293 @@
+[
+
+/* CARDs */
+
+  {
+    "title": "base set 2",
+    "class": "card",
+    "year": "2000",
+    "msrp": "$3.29",
+    "ebay": "$190",
+    "description": "One of the most hated Pokemon sets of all time, its just super lame and boring. Its just a reprint of the original base set, so theres nothing new about it. The company that manufactured the cards said that they wanted to give players more chances to get the cards that they want, but everyone knows it was actually just a lazy cash grab. "
+  },
+
+  {
+    "title": "base set 2",
+    "class": "card",
+    "year": "1996",
+    "msrp": "$200",
+    "ebay": "$150",
+    "description": "I really miss the era when everything was translucent plastic, I sure hope that makes a comeback. The N64 was Nintendos first truly 3D console and was pretty revolutionary in a lot of ways. A lot of developers didnt know how to program in 3D, but Nintendo set the standard with games like Mario 64."
+  },
+
+  {
+    "title": "gengar",
+    "class": "card",
+    "year": "2000",
+    "msrp": "$3.29",
+    "ebay": "$65",
+    "description": "This card is interesting because the art was actually changed from the original Japanese release to western releases. The background originally featured cross shaped gravestones but were removed to not depict religious iconography.However, the shadows of the cross are still slightly visible in the back."
+  },
+
+  {
+    "title": "coro mew",
+    "class": "card",
+    "year": "2001",
+    "msrp": "$NA",
+    "ebay": "$250",
+    "description": "Originally relesead exclusivley as a promo card in the Japanese magazine 'CoroCoro Comic'. I think this has to be my favorite Pokemon Card, its very unique in its look and release. It came out over 20 years ago yet still fits in with all the modern card designs. "
+  },
+
+  {
+    "title": "charizard",
+    "class": "card",
+    "year": "1999",
+    "msrp": "$3.29",
+    "ebay": "$250",
+    "description": "Probably the most infamous and well known Pokemon card there is. I remeber in 2nd grade, someone stole another kids Charizard and it was never found again. The next day he got his revenge by pouring glue in his backpack. Thats just what Charizard does to people. "
+  },
+
+  {
+    "title": "pokemon center",
+    "class": "card",
+    "year": "2000",
+    "msrp": "$NA",
+    "ebay": "$480",
+    "description": "Weirdly this is one of the most expensive cards I own. Theres nothing really special about it, its just pretty rare. It was given out as a limited promo for the new Pokemon Center in NYC. I love how the credited artist's name is Big Mama Tagawa."
+  },
+
+  {
+    "title": "shining Gyarados",
+    "class": "card",
+    "year": "2000",
+    "msrp": "$3.29",
+    "ebay": "$280",
+    "description": "I love this card because the art is so unique, during this time it was very rare to see a person illustrated with the Pokemon itself. This, along with magikarp, were the first ever shining pokemon to be released in the TCG. "
+  },
+
+  {
+    "title": "articuno",
+    "class": "card",
+    "year": "1999",
+    "msrp": "$3.29",
+    "ebay": "$30",
+    "description": "This was my most cherished card as a kid, I thought it was just so cool. I rarely got the chance to open up packs myself, and when I did I never got anything cool. But one day I was lucky enough to get a pack from the local pharmacy and pulled this. I may have cried not totally sure. "
+  },
+
+  {
+    "title": "lillie",
+    "class": "card",
+    "year": "2018",
+    "msrp": "$4.29",
+    "ebay": "$420",
+    "description": "I think? this is my most expensive card. Which is kinda dissapointing because I dont really like it that much. Im just not a huge fan of the trainer cards, im mostly here for the silly imaginary animals. But it is fun whenever I see this in my collection just becuase I know its worth so much (i actually have 2). "
+  },
+
+  {
+    "title": "charizard",
+    "class": "card",
+    "year": "2020",
+    "msrp": "$4.29",
+    "ebay": "$200",
+    "description": "In 2020 the Pokemon scene completely exploded, everyone was feral trying to get their hands on literally whatever piece of cardboard they could get. At the peak, this was the card people wanted the most and I may have given in to buying it on ebay.  "
+  },
+
+  {
+    "title": "dark magician girl",
+    "class": "card",
+    "year": "2003",
+    "msrp": "$NA",
+    "ebay": "$240",
+    "description": "There was a very nice nurse at the doctors office I used to go to that I got pretty close with. I told her about how I collect cards and she said she thinks her son has a showbox full of them in his room. There was a bunch of Yugioh cards in there, nothing too crazy, but I did get this one out of it."
+  },
+
+  /* CARDs */
+
+
+
+
+  /* MISC */
+
+  {
+    "title": "tamagotch stickers",
+    "class": "misc",
+    "year": "1997",
+    "msrp": "$NA",
+    "ebay": "$10",
+    "description": "Just a funny lookin sticker sheet. I definitley suffer from sticker anxiety and dont want to waste them on something im not sure about. So ill probably never end up using them but thats fine because its a great display on the wall."
+  },
+
+  {
+    "title": "pokemon ana pass",
+    "class": "misc",
+    "year": "1999",
+    "msrp": "$NA",
+    "ebay": "$50",
+    "description": "A more unique item in my Pokemon collection. With all the hype in Japan surrounding pokemon, the airline ANA specially themed some of their planes. Even the boarding passes, like this one, were cool. I think I would do some very disgusting things to go back in time just to ride the pokemon plane. "
+  },
+
+  {
+    "title": "cute cat",
+    "class": "misc",
+    "year": "???",
+    "msrp": "$NA",
+    "ebay": "$NA",
+    "description": "At the bottom, theres an engraving that says made in Thailand. Its clearly hand made and hand painted, the colors are beautiful and the shape interesting. I just found it in a goodwill though and gave it as a gift to my mom who also loves cats."
+  },
+
+  /* MISC */
+
+
+
+
+  /* PLUSH */
+
+  {
+    "title": "mr. tako",
+    "class": "plush",
+    "year": "2021",
+    "msrp": "$15",
+    "ebay": "$40",
+    "description": "Ill be real with you, im not really sure who Mr. Tako is and im sure you dont either. But I am a fan of a good octopuss and he is cool. Hes from a video game called Save Me Mr. Tako but I havent had a chance to play it yet."
+  },
+
+  {
+    "title": "potroast",
+    "class": "plush",
+    "year": "2004",
+    "msrp": "NA",
+    "ebay": "Priceless",
+    "description": "My childhood stuffed animal, named potroast because he is a cow and because the day I got him we were having potroast for din. Hes definitley seen some better days. One time I left him directly on my lamp so hed be warm, but he actually just started smoking and melting."
+  },
+
+  /* PLUSH */
+
+
+
+
+  /* VIDEO GAME */
+
+  {
+    "title": "N64",
+    "class": "video game",
+    "year": "1996",
+    "msrp": "$200",
+    "ebay": "$150",
+    "description": "I really miss the era when everything was translucent plastic, I sure hope that makes a comeback. The N64 was Nintendos first truly 3D console and was pretty revolutionary in a lot of ways. A lot of developers didnt know how to program in 3D, but Nintendo set the standard with games like Mario 64."
+  },
+
+  {
+    "title": "gameboy color",
+    "class": "video game",
+    "year": "1998",
+    "msrp": "$80",
+    "ebay": "$80",
+    "description": "The Gameboy Color was the first console I ever got to play on, it was a hand me down from my brother. Some of my favorite gaming memories are attatched to it, and some of the best games ive ever played were on this console (pokemon crystal)."
+  },
+
+  {
+    "title": "DSi XL",
+    "class": "video game",
+    "year": "2009",
+    "msrp": "$180",
+    "ebay": "$100",
+    "description": "The DSI came out at a time right before most people had phones with cameras on them, so getting a piece of tech that can actually take pictures was a huge deal. I never had one as a kid and was soooo jealous of everyone in school who had one. It seemed so fun taking pics of you and your friends and editing them with silly effects."
+  },
+
+  {
+    "title": "pokemon pinball",
+    "class": "video game",
+    "year": "1999",
+    "msrp": "$40",
+    "ebay": "$20",
+    "description": "I LOVE THIS GAME. ACTUALLY BEST GAME. It is the best time waster, the soundtrack is so good and the graphics look really great for the time. Its not even a gimmicky spinoff, they made a unique pinball game where you can collect pokemon within it. The cartridge has a built in rumble that runs of a AA battery, which was really fun for the time."
+  },
+
+  {
+    "title": "mario land 2",
+    "class": "video game",
+    "year": "1992",
+    "msrp": "$30",
+    "ebay": "$25",
+    "description": "This verision of Mario is pretty unique and still one of the best. It was made by a different team than normal and they were still trying to figure out how to bring the series from console to handheld. Theres really weird characters, like a scary jason mask guy, and weird enviroments like a whole level that takes place inside a robot Mario. "
+  },
+
+  {
+    "title": "link's awakening",
+    "class": "video game",
+    "year": "1998",
+    "msrp": "$45",
+    "ebay": "$55",
+    "description": "Similar to Mario Land 2, theres a lot of odd and unique things in this game that normally would never be in a Zelda game. Again, it was made by a different team as a side passion project and somehow ended up being made into an actually game. It was recently remade for the Nintendo Switch and was done very well. Oh also the black gameboy cartridges means it can play on the original Gameboy or Gameboy color."
+  },
+
+  {
+    "title": "pokemon crystal",
+    "class": "video game",
+    "year": "2000",
+    "msrp": "$45",
+    "ebay": "$140",
+    "description": "This would be my favorite pokemon game, but it was actually remade for the DS and that version is really good. Still its a great game and its probably the most nostalgic game for me. The graphics and soundtrack fit the experience so well, and I love how the cartrige is clear and glittery. This game was a big deal because it had a real time day and night cycle, and in Japan you could even link it up to your cell phone to acess exclusive events. "
+  },
+
+  {
+    "title": "kirby tilt n tumble",
+    "class": "video game",
+    "year": "2001",
+    "msrp": "$45",
+    "ebay": "$80",
+    "description": "A crazy game for the time it came out, it had a gyroscope built in to the cartridge so you could play it by tilting the gameboy itself. Now this is expected in all our electronics, but to control a gameboy by just moving it around in 2001 was pretty weird. Its an alright game though I dont fully love it."
+  },
+
+  {
+    "title": "N64",
+    "class": "video game",
+    "year": "1996",
+    "msrp": "$200",
+    "ebay": "$150",
+    "description": "I really miss the era when everything was translucent plastic, I sure hope that makes a comeback. The N64 was Nintendos first truly 3D console and was pretty revolutionary in a lot of ways. A lot of developers didnt know how to program in 3D, but Nintendo set the standard with games like Mario 64."
+  },
+
+  {
+    "title": "twilight princess",
+    "class": "video game",
+    "year": "2016",
+    "msrp": "$60",
+    "ebay": "$110",
+    "description": "Surprisingly this is a pretty expensive game now. Its because its the best version of Twilight Princess, but it was released on the wii U which is Nintendos worst selling home console, so there isnt that many copies out there. The original version on the wii was the first real Zelda game I played and I loved it but was never able to beat it as a kid."
+  },
+
+  {
+    "title": "donkey kong land 2",
+    "class": "video game",
+    "year": "1996",
+    "msrp": "$30",
+    "ebay": "$20",
+    "description": "This is a port of the console version on the Super Nintendo. Its honestly pretty impressive that they were able to transfer a playable version onto the significantly underpowered Gameboy. However it is still the worse version, what really gets me is that the soundtrack is so good on console but doesnt hit nearly as hard with the Gameboy's chip tunes. "
+  },
+
+  /* VIDEO GAME */
+
+
+
+
+  /* BOOKS */
+
+  {
+    "title": "monster manga",
+    "class": "book",
+    "year": "2006",
+    "msrp": "$160",
+    "ebay": "$600",
+    "description": "Known as one of the best manga series ever by one of the best authors.This is probably one of the best series to read first if youve never tried manga before. It has a pretty good anime adaptation too which is definitley worth watching. Its just a very suspensful and freaky story that just keeps getting deeper and deeper."
+  },
+
+  {
+    "title": "mother 3 guide",
+    "class": "book",
+    "year": "2019",
+    "msrp": "$20",
+    "ebay": "$60",
+    "description": "A walkthrough book made for the game Mother 3. Mother 3 actually never was released in the west, only in Japan, which is weird because its from a pretty popular series. Since its so popular, fans ended up translating it and its been released underground for western players to experience it. The game is honestly so infamous that there was even this english guide book produced."
+  },
+]
