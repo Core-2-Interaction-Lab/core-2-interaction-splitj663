@@ -1,5 +1,6 @@
 [
   {
+      "id": "donkey-kong",
       "gametitle": "Donkey Kong Country 2",
       "songname": "Stickerbrush Symphony",
       "composername": "David Wise",
@@ -23,6 +24,7 @@
       "comment15": "Been feeling really down today about my last relationship. 6 1/2 years and a promised marriage, gone. I knew in my heart he wouldn't be the man I needed. If we ever had kids he would of neglected them. This song helps me cry it out."
   },
   {
+      "id": "ocarina",
       "gametitle": "Zelda: Ocarina of Time",
       "songname": "Title Theme",
       "composername": "Koji Kondo",
@@ -46,6 +48,7 @@
       "comment15": "Flawless and beautiful… I never really appreciated this as a child"
   },
   {
+      "id": "kingdom-hearts",
       "gametitle": "Kingdom Hearts",
       "songname": "Dearly Beloved",
       "composername": "Yoko Shimomura",
@@ -69,6 +72,7 @@
       "comment15": "This song is my lullaby. I don't know why. It still is! ..."
   },
   {
+      "id": "chrono-trigger",
       "gametitle": "Chrono Trigger",
       "songname": "Corridors of Time",
       "composername": "Yasunori Mitsuda",
@@ -92,6 +96,7 @@
       "comment15": "Im a 19, soon turning 20 year old trans guy. a friend of mine pointed me to this video, saying it felt like a theme song for if life had a literal pause menu. i feel like i'm in that pause menu right now. i have adhd and depression, and i often forget to take my meds. when that happens the world turns into a timeless slog. there's a larger \"pause\" as well, i feel like i'm behind on everything- registering for college classes, getting a job, learning to drive, finding a doctor to start my transition- and i don't know how to \"unpause\". i'm afraid i'll stay stuck this way forever."
   },
   {
+      "id": "katamari",
       "gametitle": "Katamari Damacy",
       "songname": "Lonely Rolling Star",
       "composername": "Saki Kabata",
@@ -115,6 +120,7 @@
       "comment15": "I find it amazing how everyone is expressing their thoughts and feeling on this song in the comments. Despite most having a language barrier, we all felt the same feeling together just by listening to the song and how the singer expressed this bittersweet tone that I think it’s hard to even expressed just in speaking. Shows you how powerful music is and how no matter what language you speak, music will touch you all in the same"
   },
   {
+      "id": "animal-crossing",
       "gametitle": "Animal Crossing: Wild World",
       "songname": "Title Screen",
       "composername": "Kazumi Totaka",
