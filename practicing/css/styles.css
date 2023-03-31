@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: format('truetype');
+  font-style: normal;
+}
+
+:root {
+--spacing: 1em;
+}
+
+#divpic {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#bgpic {
+  opacity: 70%;
+  padding-top: 40px;
+  position: fixed;
+  z-index: -10;
+  height: 650px;
+}
+
+
+body {
+font-family: 'Poppins';
+padding: calc(2*var(--spacing)) calc(2*var(--spacing)) calc(4 * var(--spacing));
+  background-color:#5c1924;
+  color:#a5be92;
+}
+
+body * {
+font-weight: 400;
+  /*font-size: 1em;*/
+}
+
+p {
+  font-size: 1em;
+  line-height: 0.5em;
+}
+
+h1 {
+font-size: 4.5em;
+  font-weight: 200;
+}
+
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+h4 {
+  font-weight: 200;
+  line-height: 1.2em;
+  color: #c45f57;
+}
+
+#author {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+#link, #link2 {
+  --s: 0.1em;   
+  --c: #a5be92; 
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+
+#link2 {
+  opacity: 40%;
+}
+
+#link:hover, #link2:hover {
+  --_p: 100%;
+}
+#link:visited, #link2:visited {
+  text-decoration: none;
+}
+
+ul {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: calc(3 * var(--spacing));
+margin-top: calc(3 * var(--spacing));
+list-style: none;
+}
+
+li {
+display: flex;
+flex-direction: column;
+gap: var(--spacing);
+}
+
+summary {
+cursor: pointer;
+}
+
+
+@media (max-width: 950px) {
+
+  h2 {
+      font-size: 1.8em;
+      font-weight: 400;
+  }
+
+  body {
+      font-size: 0.5em;
+  }
+
+  .dropdown-content {
+      width: 75px;
+      padding: 5px;
+    }
+
+  #bgpic {
+      padding-top: 60px;
+      transition: ease 0.5s;
+  } 
+
+}
+
+@media (max-width: 650px) {
+
+  h1 {
+font-size: 4em;
+  }
+
+  #author {
+      font-size: 2em;
+  }
+
+  h2 {
+  font-size: 1.2em;
+  }
+
+  body {
+  font-size: 0.5em;
+  }
+
+  ul {
+  grid-template-columns: 1fr 1fr;
+  }
+
+  .dropdown-content {
+      width: 75px;
+      padding: 5px;
+    }
+
+  #bgpic {
+      padding-top: 70px;
+      height: 600px;
+      transition: ease 0.5s;
+  } 
+
+}
