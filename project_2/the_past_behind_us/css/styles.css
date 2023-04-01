@@ -1,42 +1,98 @@
-body {
-  background-color: aquamarine;
-}
+
 
 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  font-family: Helvetica, sans-serif;
+  
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;
+  font-size: 9vw;
+  text-align: center;
+  position: fixed;
+  margin-left: 3.46%;
+  margin-right: 3.46%;
+  bottom: 50%;
+  
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: aquamarine;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  margin-top: 1vw;
   
 }
 
 .item {
-  margin: 20px;
+  padding: 2.5vw;
   
   
 }
 
 img {
-  max-width: 20vw;
+  max-width: 15vw;
   height: auto;
-  border: 6px solid black;
-  border-radius: 12px;
-  filter: grayscale(100%);
+  border: .55vw solid black;
+  border-radius: 1.2vw;
+  filter: grayscale(100%) contrast(160%);
+  transition: .5s ease-in-out;
+  
   
 }
 
 img:hover {
-  filter: grayscale(0%);
+  filter: grayscale(0%) contrast(100%);
   cursor: pointer;
   transition: .2s ease-in-out;
 }
+
+/* .container {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  backdrop-filter: blur(4px);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation-name: fadeout;
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  backdrop-filter: blur(2px);
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .1;
+  }
+}
+
+.box {
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.tilt-left {
+  transform: rotate(-5deg);
+}
+
+.tilt-right {
+  transform: rotate(5deg);
+} */
+

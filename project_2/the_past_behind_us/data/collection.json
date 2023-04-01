@@ -1,6 +1,7 @@
 [
   {
       "id": "donkey-kong",
+      "path": "donkey-kong",
       "gametitle": "Donkey Kong Country 2",
       "songname": "Stickerbrush Symphony",
       "composername": "David Wise",
@@ -25,6 +26,7 @@
   },
   {
       "id": "ocarina",
+      "path": "ocarina",
       "gametitle": "Zelda: Ocarina of Time",
       "songname": "Title Theme",
       "composername": "Koji Kondo",
@@ -49,6 +51,7 @@
   },
   {
       "id": "kingdom-hearts",
+      "path": "kingdom-hearts",
       "gametitle": "Kingdom Hearts",
       "songname": "Dearly Beloved",
       "composername": "Yoko Shimomura",
