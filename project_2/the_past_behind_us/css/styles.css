@@ -32,7 +32,7 @@ h1 {
 img {
   max-width: 15vw;
   height: auto;
-  border: .55vw solid black;
+  border: .45vw solid black;
   border-radius: 1.2vw;
   filter: grayscale(100%) contrast(160%);
   transition: .5s ease-in-out;
@@ -44,9 +44,11 @@ img:hover {
   filter: grayscale(0%) contrast(100%);
   cursor: pointer;
   transition: .2s ease-in-out;
+  transform: scale(103%);
+
 }
 
-/* .container {
+.container {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1.5s;
@@ -82,17 +84,4 @@ h1 {
     opacity: .1;
   }
 }
-
-.box {
-  transform: rotate(0deg);
-  transition: transform 0.5s ease-in-out;
-}
-
-.tilt-left {
-  transform: rotate(-5deg);
-}
-
-.tilt-right {
-  transform: rotate(5deg);
-} */
 

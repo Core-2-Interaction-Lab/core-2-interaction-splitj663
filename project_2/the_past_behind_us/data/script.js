@@ -1,5 +1,3 @@
-
-
 fetch("data/collection.json")
 .then((response) => response.json())
 .then((data) => {
@@ -75,4 +73,3 @@ fetch("data/collection.json")
 .catch((error) => {
   console.error("Error fetching JSON data:", error);
 });
-

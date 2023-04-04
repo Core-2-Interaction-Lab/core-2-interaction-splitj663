@@ -1,0 +1,169 @@
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  /* overflow: hidden; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15%;
+  /* margin-right: 2%; */
+  margin-top: 1vw;
+  margin-right: 15%;
+  animation-name: fadeIn;
+  animation-duration: 1.2s;
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  backdrop-filter: blur(4px);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.left_bar {
+  border: .4vw solid black;
+  height: 10000px;
+  margin-top: -1.5vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+.bars {
+  border-top: .4vw solid black;
+  border-bottom: .4vw solid black;
+  margin-top: 1.62vw;
+}
+
+.bars2 {
+  border-bottom: .4vw solid black;
+}
+
+h1 {
+  
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;
+  font-size: 9vw;
+  text-align: center;
+  position: fixed;
+  margin-left: 3.46%;
+  margin-right: 3.46%;
+  bottom: 50%;
+  opacity: .1;
+  filter: blur(5px);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 1.2vw;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: .8vw;
+}
+
+.song {
+  font-style: italic;
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.description {
+  text-align: center;
+}
+
+.content {
+  border: .4vw solid black;
+  border-left: 0px;
+  border-right: .4vw solid black;
+  /* margin-right: 30%; */
+  width: 100%;
+  height: 10000px;
+  margin-top: -1.5vw;
+  overflow: auto;
+}
+
+.content2 {
+  border-top: .4vw solid black;
+  margin-top: 1.62vw;
+  overflow: auto;
+}
+
+.content3 {
+  padding-top: 3.2%;
+  margin-left: 2vw;
+  /* margin-right: 30%; */
+  font-size: 1.3vw;
+  font-weight: 400;
+  line-height: 1.6vw;
+  letter-spacing: .03vw;
+  overflow: auto;
+}
+
+.listing {
+  margin-bottom: 2.5vw;
+  padding-right: 1.5vw;
+  overflow: auto;
+}
+
+li {
+  margin-bottom: 1vw;
+  
+}
+
+/* .item {
+  margin: 1.5vw;
+  
+  
+} */
+
+img {
+  max-width: 15vw;
+  height: auto;
+  border: .4vw solid black;
+  border-radius: 1.2vw;
+  filter: grayscale(100%) contrast(160%);
+  transition: .2s ease-in-out;
+  margin: 1.5vw;
+  margin-bottom: 1.15vw;
+  
+  
+}
+
+img:hover {
+  filter: grayscale(0%) contrast(100%);
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  transform: scale(115%);
+  z-index: 2;
+}
+
+audio {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  object-fit: contain;
+  justify-content: center;
+  margin-bottom: 1vw;
+  z-index: 1;
+}
+
+
+
+
+
