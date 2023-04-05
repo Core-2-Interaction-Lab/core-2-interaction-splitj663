@@ -35,7 +35,7 @@ fetch("data/collection.json")
     const itemElement = `
   <div class="item">
 
-    <a href="the_past_behind_us/donkey-kong.html">
+    <a href="donkey-kong.html">
     <img src="pics/${item.image}" /> 
     </a>
     
