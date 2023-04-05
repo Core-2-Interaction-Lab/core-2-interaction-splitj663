@@ -19,6 +19,7 @@ fetch("data/collection.json")
         
         <div class="item left_bar">
           <div class="bars">
+          
           <img src="pics/${item.image}" />
           <audio controls>
           <source src="path/to/audio/file.mp3" type="audio/mpeg">
@@ -30,9 +31,9 @@ fetch("data/collection.json")
           <h2>${item.gametitle}</h2>
           <ul class="description">
             <li class="song"> \"${item.songname}\" </span> </li>
-            <li> <span class="bold"> Composed by\: </span> ${item.composername} </li>
-            <li> <span class="bold"> System\: </span> ${item.system} </li>
-            <li> <span class="bold"> Released\: </span> ${item.releaseyear} </li>
+            <li class="info"> <span class="bold"> Composed by\: </span> ${item.composername} </li>
+            <li class="info"> <span class="bold"> System\: </span> ${item.system} </li>
+            <li class="info"> <span class="bold"> Released\: </span> ${item.releaseyear} </li>
           </div> 
           </ul>
         </div>

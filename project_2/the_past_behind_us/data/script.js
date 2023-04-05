@@ -34,7 +34,11 @@ fetch("data/collection.json")
  results.forEach((item) => {
     const itemElement = `
   <div class="item">
-    <img src="pics/${item.image}" />
+
+    <a href="the_past_behind_us/donkey-kong.html">
+    <img src="pics/${item.image}" /> 
+    </a>
+    
     <h2>${item.gametitle}</h2>
     <ul>
       <li>${item.songname}</li>

@@ -48,7 +48,7 @@ img:hover {
 
 }
 
-.container {
+/* .container {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1.5s;
@@ -83,5 +83,5 @@ h1 {
   100% {
     opacity: .1;
   }
-}
+} */
 
