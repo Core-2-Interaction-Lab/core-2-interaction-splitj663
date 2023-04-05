@@ -4,40 +4,40 @@ h1 {
   
   font-family: 'Roboto Condensed', sans-serif;
   font-weight:700;
-  font-size: 9vw;
+  font-size: 13.8vw;
   text-align: center;
   position: fixed;
-  margin-left: 3.46%;
-  margin-right: 3.46%;
-  bottom: 50%;
-  
+  margin-left: 8%;
+  margin-right: 8%;
+  top: 20%;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-left: 3.5%;
-  margin-right: 3.5%;
-  margin-top: 1vw;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 2vw;
   
 }
 
 .item {
-  padding: 2.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   
   
 }
 
 img {
-  max-width: 15vw;
+  max-width: 16vw;
   height: auto;
   border: .45vw solid black;
   border-radius: 1.2vw;
   filter: grayscale(100%) contrast(160%);
   transition: .5s ease-in-out;
-  
-  
 }
 
 img:hover {
@@ -48,17 +48,39 @@ img:hover {
 
 }
 
-/* .container {
+img:active {
+  border: .45vw solid rgb(89, 0, 255);
+  transition: .0s;
+}
+
+.container {
   opacity: 0;
   animation-name: fadeIn;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-delay: 5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  backdrop-filter: blur(4px);
 }
 
 @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  animation-name: blur;
+  animation-duration: 1s;
+  animation-delay: 5.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  backdrop-filter: blur(6px);
+}
+
+@keyframes blur {
   0% {
     opacity: 0;
   }
@@ -73,7 +95,7 @@ h1 {
   animation-delay: 1.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  backdrop-filter: blur(2px);
+  
 }
 
 @keyframes fadeout {
@@ -83,5 +105,45 @@ h1 {
   100% {
     opacity: .1;
   }
-} */
+}
 
+@media screen and (max-width: 1000px) {
+  img {
+    max-width: 23vw;
+  }
+
+  h1 {
+    font-size: 14vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 39vw;
+    border: 1vw solid black;
+    border-radius: 3.3vw;
+  }
+
+  .item {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4vw;
+  }
+
+  h1 {
+    font-size: 21vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 30%;
+  }
+}
