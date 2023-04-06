@@ -36,8 +36,9 @@ img {
   height: auto;
   border: .45vw solid black;
   border-radius: 1.2vw;
-  filter: grayscale(100%) contrast(160%);
+  filter: contrast(160%) grayscale(100%);
   transition: .5s ease-in-out;
+  
 }
 
 img:hover {

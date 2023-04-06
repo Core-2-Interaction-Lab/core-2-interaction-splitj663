@@ -1,0 +1,242 @@
+
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  /* background-color: #f2f2f2; */
+}
+
+.vase {
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background-color: #bfbfbf;
+  border-radius: 50% / 10%;
+  opacity: 70%;
+}
+
+.flower1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 60px;
+  left: 180px;
+  background-color:rgb(195, 4, 4);
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+.flower2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 130px;
+  left: 110px;
+  background-color: rgb(100, 15, 15);
+  border-radius: 50%;
+}
+.flower3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 170px;
+  left: 220px;
+  background-color: rgb(79, 3, 3);
+  border-radius: 50%;
+}
+.flower4 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 65px;
+  left: 220px;
+  background-color: rgb(79, 3, 3);
+  border-radius: 50%;
+}
+.flower5 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 65px;
+  left: 140px;
+  background-color: rgb(218, 76, 76);
+  border-radius: 50%;
+}
+.flower6 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 85px;
+  left: 115px;
+  background-color: rgb(146, 15, 15);
+  border-radius: 50%;
+}
+.flower7 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  background-color: rgb(190, 75, 75);
+  border-radius: 50%;
+}
+.flower8 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 140px;
+  left: 230px;
+  background-color: rgb(186, 18, 18);
+  border-radius: 50%;
+}
+.flower9 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 170px;
+  left: 190px;
+  background-color: rgb(125, 2, 2);
+  border-radius: 50%;
+}
+.flower10 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 145px;
+  background-color: rgb(77, 18, 18);
+  border-radius: 50%;
+}
+.flower11 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  background-color: rgb(167, 22, 22);
+  border-radius: 50%;
+}
+.flower12 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 197px;
+  background-color: rgb(110, 11, 11);
+  border-radius: 50%;
+}
+.flower13 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background-color: rgb(182, 7, 7);
+  border-radius: 50%;
+}
+
+
+
+/*animations here */
+
+.container {
+  animation-name: tilt;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.flower1 {
+animation: grow-shrink 1s ease-in-out infinite alternate;
+}
+
+.flower2 {
+  animation: grow-shrink 2s ease-in-out infinite alternate;
+}
+
+.flower3 {
+  animation: grow-shrink 3s ease-in-out infinite alternate;
+}
+
+.flower4 {
+  animation: grow-shrink 1.5s ease-in-out infinite alternate;
+}
+
+.flower5 {
+  animation: grow-shrink 2.5s ease-in-out infinite alternate;
+}
+
+.flower6 {
+  animation: grow-shrink 3.5s ease-in-out infinite alternate;
+}
+
+.flower7 {
+  animation: grow-shrink 1.7s ease-in-out infinite alternate;
+}
+
+.flower8 {
+  animation: grow-shrink 2.7s ease-in-out infinite alternate;
+}
+
+.flower9 {
+  animation: grow-shrink 3.7s ease-in-out infinite alternate;
+}
+
+.flower10 {
+  animation: grow-shrink 1.2s ease-in-out infinite alternate;
+}
+
+.flower11 {
+  animation: grow-shrink 2.2s ease-in-out infinite alternate;
+}
+
+.flower12 {
+  animation: grow-shrink 3.2s ease-in-out infinite alternate;
+}
+
+.flower13 {
+  animation: grow-shrink 1.7s ease-in-out infinite alternate;
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
