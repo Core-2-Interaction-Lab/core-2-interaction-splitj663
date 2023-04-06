@@ -1,0 +1,134 @@
+[
+  {
+      "person": "Quynh",
+      "id": 1,
+      "pageTitle": "C.J. Cregg",
+      "url": "https://en.wikipedia.org/wiki/C._J._Cregg",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/84/CJ_Cregg.jpg",
+      "imageCaption": "Allison Janney as C. J. Cregg",
+      "lastEdited": "This page was last edited on 29 December 2022, at 01:47 (UTC).",
+      "languagesAvailable": 4,
+      "firstSentence": "Claudia Jean Cregg is a fictional character played by Allison Janney on the American television drama T he West Wing."
+  },
+  {
+      "person": "James",
+      "id": 2,
+      "pageTitle": "Calvin Klein",
+      "url": "https://en.wikipedia.org/wiki/Calvin_Klein_(fashion_house)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/CK_Calvin_Klein_logo.svg",
+      "imageCaption": "Calvin Klein Inc.",
+      "lastEdited": "This page was last edited on 6 February 2023, at 21:08 (UTC).",
+      "languagesAvailable": 36,
+      "firstSentence": "Calvin Klein Inc. (/klaɪn/) is an internationally operating, American fashion house."
+  },
+  {
+      "person": "Quynh",
+      "id": 3,
+      "pageTitle": "Underwear",
+      "url": "https://en.wikipedia.org/wiki/Underwear",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Boxer_002.jpg",
+      "imageCaption": "Boxer shorts and boxer briefs",
+      "lastEdited": "This page was last edited on 17 February 2023, at 11:00 (UTC).",
+      "languagesAvailable": 61,
+      "firstSentence": "Underwear, underclothing, or undergarments are items of clothing worn beneath outer clothes, usually in direct contact with the skin, although they may comprise more than a single layer."
+  },
+  {
+      "person": "James",
+      "id": 4,
+      "pageTitle": "Edible underwear",
+      "url": "https://en.wikipedia.org/wiki/Edible_underwear",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/C_p-in-sand.5.jpg",
+      "imageCaption": "Original Candypants Edible Underwear",
+      "lastEdited": "This page was last edited on 1 August 2022, at 22:39 (UTC).",
+      "languagesAvailable": 4,
+      "firstSentence": "Edible underwear is a candy product which is made into a form and can function as underwear but which is edible."
+  },
+  {
+      "person": "Quynh",
+      "id": 5,
+      "pageTitle": "Sex shop",
+      "url": "https://en.wikipedia.org/wiki/Sex_shop",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Walker%27s_Court%2C_Soho_%283%29.JPG",
+      "imageCaption": "A sex shop in Walker's Court, Soho, London.",
+      "lastEdited": "This page was last edited on 4 January 2023, at 14:58 (UTC).",
+      "languagesAvailable": 47,
+      "firstSentence": "A sex shop is a retailer that sells products related to adult sexual or erotic entertainment, such as sex toys, lingerie, pornography, and other related products."
+  },
+  {
+      "person": "James",
+      "id": 6,
+      "pageTitle": "Adult movie theatre",
+      "url": "https:",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/NobHillTheatre.JPG",
+      "imageCaption": "Nob Hill theater advertising video arcade",
+      "lastEdited": "This page was last edited on 10 November 2022, at 14:09 (UTC).",
+      "languagesAvailable": 12,
+      "firstSentence": "An adult movie theater is a euphemistic term for a movie theater dedicated to the exhibition of pornographic films."
+  },
+  {
+      "person": "Quynh",
+      "id": 7,
+      "pageTitle": "Tokyo",
+      "url": "https://en.wikipedia.org/wiki/Tokyo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg",
+      "imageCaption": "Tokyo Metropolis",
+      "lastEdited": "This page was last edited on 7 March 2023, at 12:04 (UTC).",
+      "languagesAvailable": 255,
+      "firstSentence": "Tokyo (/ˈtoʊkioʊ/;[7] Japanese: 東京, Tōkyō, [toːkʲoː] (listen)), officially the Tokyo Metropolis (東京都, Tōkyō-to), is the capital and most populous city of Japan."
+  },
+  {
+      "person": "James",
+      "id": 8,
+      "pageTitle": "List of parks and gardens in Tokyo",
+      "url": "https://en.wikipedia.org/wiki/List_of_parks_and_gardens_in_Tokyo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/UenoPark_Hanami.jpg",
+      "imageCaption": "Cherry blossoms in Ueno Park",
+      "lastEdited": "This page was last edited on 16 January 2023, at 22:28 (UTC).",
+      "languagesAvailable": 2,
+      "firstSentence": "Tokyo, Japan contains many parks and gardens."
+  },
+  {
+      "person": "Quynh",
+      "id": 9,
+      "pageTitle": "Cherry blossoms",
+      "url": "https://en.wikipedia.org/wiki/Cherry_blossom",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/SAKURA_2017_Sugimura_park_Hashimoto.jpg",
+      "imageCaption": "Cherry blossoms at Sugimura park, Hashimoto",
+      "lastEdited": "This page was last edited on 7 March 2023, at 04:18 (UTC).",
+      "languagesAvailable": 54,
+      "firstSentence": "A cherry blossom, also known as Japanese cherry or sakura, is a flower of many trees of genus Prunus or Prunus subg."
+  },
+  {
+      "person": "James",
+      "id": 10,
+      "pageTitle": "Koi",
+      "url": "https://en.wikipedia.org/wiki/Koi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg",
+      "imageCaption": "Koi fish",
+      "lastEdited": "This page was last edited on 3 March 2023, at 04:00 (UTC).",
+      "languagesAvailable": 44,
+      "firstSentence": "Koi (鯉, English: /ˈkɔɪ/, Japanese: [koꜜi]), or more specifically nishikigoi (錦鯉, Japanese: [ɲiɕi̥kiꜜɡoi], literally \"brocaded carp\"), are colored varieties of the Amur carp (Cyprinus rubrofuscus) that are kept for decorative purposes in outdoor koi ponds or water gardens."
+  },
+  {
+      "person": "Quynh",
+      "id": 11,
+      "pageTitle": "Otter",
+      "url": "https://en.wikipedia.org/wiki/Otter",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Fischotter%2C_Lutra_Lutra.JPG",
+      "imageCaption": "Otter",
+      "lastEdited": "This page was last edited on 6 March 2023, at 21:55 (UTC).",
+      "languagesAvailable": 85,
+      "firstSentence": "Otters are carnivorous mammals in the subfamily Lutrinae."
+  },
+  {
+      "person": "James",
+      "id": 12,
+      "pageTitle": "Florida",
+      "url": "https://en.wikipedia.org/wiki/Florida",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chiaves-la-florida-1584.jpg",
+      "imageCaption": "Map of Florida, likely based on the expeditions of Hernando de Soto (1539–1543)",
+      "lastEdited": "This page was last edited on 7 March 2023, at 13:56 (UTC).",
+      "languagesAvailable": 195,
+      "firstSentence": "Florida is a state in the Southeastern region of the United States, bordered to the west by the Gulf of Mexico; Alabama to the northwest; Georgia to the north; the Bahamas and Atlantic Ocean to the east; and the Straits of Florida and Cuba to the south."
+  }
+]
