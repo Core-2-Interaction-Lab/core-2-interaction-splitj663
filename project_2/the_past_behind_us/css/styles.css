@@ -1,5 +1,7 @@
 
-
+body {
+  background-color: #f5f5f7;
+}
 h1 {
   
   font-family: 'Roboto Condensed', sans-serif;
@@ -10,6 +12,7 @@ h1 {
   margin-left: 8%;
   margin-right: 8%;
   top: 20%;
+  color: #1d1d1f;
 }
 
 .container {
@@ -18,7 +21,7 @@ h1 {
   justify-content: space-between;
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 2vw;
+  margin-top: 1.5vw;
   
 }
 
@@ -27,22 +30,20 @@ h1 {
   padding-right: 1vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  
-  
+
 }
 
 img {
   max-width: 16vw;
   height: auto;
-  border: .45vw solid black;
+  border: .45vw solid #1d1d1f;
   border-radius: 1.2vw;
   filter: contrast(160%) grayscale(100%);
-  transition: .5s ease-in-out;
-  
+  transition: .6s ease-in-out;
 }
 
 img:hover {
-  filter: grayscale(0%) contrast(100%);
+  filter: contrast(100%) grayscale(0%);
   cursor: pointer;
   transition: .2s ease-in-out;
   transform: scale(103%);
@@ -54,11 +55,92 @@ img:active {
   transition: .0s;
 }
 
+marquee {
+  font-family: 'Roboto Condensed', sans-serif;
+  color:  #1d1d1f;
+  /* background-color: #f5f5f7; */
+  font-size: 1.8vw;
+  font-weight: 400;
+  line-height: 3vw;
+  letter-spacing: .02vw;
+  /* filter: blur(2px); */
+  backdrop-filter: blur(15px);
+  border-top: .45vw solid #1d1d1f;
+  border-bottom: .45vw solid #1d1d1f;
+}
+
+.top {
+  margin-top: 4vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: #f5f5f7; */
+  z-index: 99;
+  /* filter: drop-shadow(0px 12px 6px #f5f5f7); */
+  
+}
+
+
+.bottom{
+  transform: scaleX(-1);
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  /* position: -webkit-sticky;
+  position: sticky;
+  bottom: 0; */
+  background-color: #f5f5f7;
+  z-index: 99;
+  backdrop-filter: blur(15px);
+  /* filter: drop-shadow(0px -12px 6px #f5f5f7); */
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2.5vw;
+  backdrop-filter: blur(6px);
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 1.2vw;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+}
+
+.info {
+  color: #1d1d1f;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  border-bottom: .8vw solid #1d1d1f;
+  padding-bottom: .5vw;
+}
 .container {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1s;
   animation-delay: 5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  
+}
+
+.bottom-section {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+marquee {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
 }
@@ -75,7 +157,7 @@ img:active {
 .container {
   animation-name: blur;
   animation-duration: 1s;
-  animation-delay: 5.5s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   backdrop-filter: blur(6px);
@@ -92,8 +174,8 @@ img:active {
 
 h1 {
   animation-name: fadeout;
-  animation-duration: 4s;
-  animation-delay: 1.5s;
+  animation-duration: 1.5s;
+  animation-delay: .5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   
@@ -107,6 +189,8 @@ h1 {
     opacity: .1;
   }
 }
+
+
 
 @media screen and (max-width: 1000px) {
   img {
@@ -147,4 +231,26 @@ h1 {
     margin-right: 5%;
     top: 30%;
   }
+
+  marquee {
+    margin-top: 4vw;
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 6vw;
+
+  }
+
+  .bottom-section {
+    justify-content: space-around;
+    font-size: 8vw;
+    padding-top: 2vw;
+    padding-bottom: 2.5vw;
+    backdrop-filter: blur(6px);
+    
+  }
+
+  .top {
+    margin-top: 8vw;
+  }
 }
+

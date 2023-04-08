@@ -21,54 +21,21 @@ fetch("data/collection.json")
   data.forEach((item) => {
     const imageElement = document.createElement("img");
     imageElement.src = `pics/${item.image}`;
-
-
+  
+    const linkElement = document.createElement("a");
+    linkElement.href = `${item.path}.html`; // Replace with your desired URL
+    linkElement.appendChild(imageElement);
+  
     const itemElement = document.createElement("div");
     itemElement.classList.add("item");
-    itemElement.appendChild(imageElement);
-
+    itemElement.appendChild(linkElement);
+  
     container.appendChild(itemElement);
   });
 
 
  results.forEach((item) => {
-    const itemElement = `
-  <div class="item">
 
-    <a href="donkey-kong.html">
-    <img src="pics/${item.image}" /> 
-    </a>
-    
-    <h2>${item.gametitle}</h2>
-    <ul>
-      <li>${item.songname}</li>
-      <li>${item.composername}</li>
-      <li>${item.releaseyear}</li>
-      <li>${item.url}</li>
-    </ul>
-  </div>
-
-  <div>
-    <ul>
-      <li>${item.comment1}</li>
-      <li>${item.comment2}</li>
-      <li>${item.comment3}</li>
-      <li>${item.comment4}</li>
-      <li>${item.comment5}</li>
-      <li>${item.comment6}</li>
-      <li>${item.comment7}</li>
-      <li>${item.comment8}</li>
-      <li>${item.comment9}</li>
-      <li>${item.comment10}</li>
-      <li>${item.comment11}</li>
-      <li>${item.comment12}</li>
-      <li>${item.comment13}</li>
-      <li>${item.comment14}</li>
-      <li>${item.comment15}</li>
-    </ul>  
-  </div>
-`;
-  
     container.insertAdjacentHTML('beforeend', itemElement);
   });
 

@@ -22,7 +22,7 @@ fetch("data/collection.json")
           
           <img src="pics/${item.image}" />
           <audio controls>
-          <source src="path/to/audio/file.mp3" type="audio/mpeg">
+          <source src="music/${item.music}" type="audio/mpeg">
           Your browser does not support the audio element.
           </audio>
           </div>
@@ -34,9 +34,13 @@ fetch("data/collection.json")
             <li class="info"> <span class="bold"> Composed by\: </span> ${item.composername} </li>
             <li class="info"> <span class="bold"> System\: </span> ${item.system} </li>
             <li class="info"> <span class="bold"> Released\: </span> ${item.releaseyear} </li>
+            </ul>
           </div> 
-          </ul>
+          <a href="homepage.html">
+          <div class="home"> &#10038; return</div>
+          </a>
         </div>
+
         
         <div class="content">
         <div class="content2">
