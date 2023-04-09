@@ -1,4 +1,4 @@
-fetch("data/collection.json")
+fetch("project_2/the_past_behind_us/data/collection.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
