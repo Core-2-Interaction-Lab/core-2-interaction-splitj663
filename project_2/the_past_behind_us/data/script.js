@@ -3,19 +3,19 @@ fetch("data/collection.json")
 .then((data) => {
   const container = document.getElementById("imageContainer");
 
-  const path = location.pathname;
-  // split the pathname by its slashes, grab the last one (which is the video game title)
-  // then remove .html if it exists
-  // you are left with the video game aka object id
-  const id = path.split('/')[3].replace('.html','');
-  console.log(id);
+  // const path = location.pathname;
+  // // split the pathname by its slashes, grab the last one (which is the video game title)
+  // // then remove .html if it exists
+  // // you are left with the video game aka object id
+  // const id = path.split('/')[3].replace('.html','');
+  // console.log(id);
 
-  // get only the object that matters to us on the individual video game pages
-  const results = data.filter(item=> item.path == id)
-  console.log(results);
-  // you'll want to tuse 'results' rather than 'data' when working on these pages
-  // 'results' will return only the relevant object
-  // 'data' returns everything
+  // // get only the object that matters to us on the individual video game pages
+  // const results = data.filter(item=> item.path == id)
+  // console.log(results);
+  // // you'll want to tuse 'results' rather than 'data' when working on these pages
+  // // 'results' will return only the relevant object
+  // // 'data' returns everything
   
 
   data.forEach((item) => {
