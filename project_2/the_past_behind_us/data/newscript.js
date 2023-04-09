@@ -9,7 +9,7 @@ fetch("data/collection.json")
     console.log("Path:", path);
 
     const id = path.split("/")[3].replace(".html", "");
-    console.log("ID:", id);
+    console.log("id:", id);
 
     const results = data.filter((item) => item.path == id);
     console.log(results);
