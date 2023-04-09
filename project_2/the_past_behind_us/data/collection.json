@@ -1,7 +1,7 @@
 [
     {
         "gametitle": "Donkey Kong Country 2",
-        "id": "donkey-kong",
+        "ID": "donkey-kong",
         "path": "donkey-kong",
         "songname": "Stickerbrush Symphony",
         "composername": "David Wise",
@@ -27,7 +27,7 @@
     },
     {
         "gametitle": "Zelda: Ocarina of Time",
-        "id": "ocarina",
+        "ID": "ocarina",
         "path": "ocarina",
         "songname": "Title Theme",
         "composername": "Koji Kondo",
