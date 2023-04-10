@@ -182,7 +182,41 @@ audio {
   justify-content: center;
   margin-bottom: 1vw;
   z-index: 1;
+  
 }
+
+audio::-webkit-media-controls-panel{
+  background-color: #1d1d1f;
+}
+
+audio::-webkit-media-controls-play-button{
+  background-color: #f5f5f7;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display{
+  color: #f5f5f7;
+}
+
+audio::-webkit-media-controls-time-remaining-display{
+  color: #f5f5f7;
+}
+
+audio::-webkit-media-controls-timeline{
+ background-color: #f5f5f7;
+ padding: .1vw;
+ margin-left: .5vw;
+ border-radius: 40px;
+ margin-right: .5vw;
+}
+
+
+audio::-webkit-media-controls-mute-button{
+  background-color: #f5f5f7;
+  border-radius: 50%;
+}
+
+
 
 @media screen and (max-width: 1000px) {
   .container {
