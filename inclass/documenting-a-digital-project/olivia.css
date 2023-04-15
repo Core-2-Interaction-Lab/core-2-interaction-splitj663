@@ -1,0 +1,50 @@
+
+
+
+body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .1vw;
+  text-align: center;
+  background-color: rgb(19, 105, 28);
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #121212;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 5vw;
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 6vw;
+  margin-top: -1vw;
+}
+
+section{
+  margin: 10%;
+  margin-top: 5%;
+}
+
+img {
+  width: 100%;
+  border: .8vw solid #1d1d1f;
+  border-radius: 3vw;
+  max-width: 60vw;
+  margin-bottom: 8vw;
+
+}
+
+p {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-bottom: 5px;
+}
