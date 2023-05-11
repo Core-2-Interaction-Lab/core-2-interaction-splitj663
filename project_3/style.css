@@ -1,0 +1,261 @@
+
+
+
+body {
+  font-family: Helvetics, sans-serif;
+  letter-spacing: -1px;
+}
+
+
+
+
+
+
+/* HEADER */
+.header {
+  background-color: black;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 15%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+h2 {
+  font-size: 7vw;
+}
+
+h3 {
+  font-size: 2.5vw;
+}
+
+#white {
+  color: white;
+}
+/* HEADER */
+
+
+
+
+
+
+/* SECTION */
+section {
+  margin-left: 15%;
+  margin-right: 25%;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+h4 {
+  font-size: 2vw;
+}
+/* SECTION */
+
+
+
+
+
+
+/* FIRST SECTION NUMBERS */
+.numbers {
+  display: flex;
+  margin-right: 15%;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.circle {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: relative;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.circle:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+#red {
+  background-color: rgb(218, 23, 23);
+  color: #fff;
+}
+
+#green {
+  background-color: rgb(1, 196, 63);
+  color: #fff;
+}
+
+#purple {
+  background-color: rgb(159, 28, 159);
+  color: #fff;
+}
+
+#yellow {
+  background-color: rgb(248, 240, 0);
+  color: black 
+}
+
+#blue {
+  background-color: rgb(35, 35, 250);
+  color: #fff;
+}
+
+#orange {
+  background-color: rgb(252, 164, 0);
+  color: #fff;
+}
+/* FIRST SECTION NUMBERS */
+
+
+
+
+
+
+/* SECOND SECTION FRENCHIES */
+.french {
+  border: 4px solid black;
+  border-radius: .5vw;
+  /* padding: 1vw; */
+  /* padding-bottom: 0; */
+  font-size: 1.5vw;
+  margin-top: 1.5vw;
+}
+/* SECOND SECTION FRENCHIES */
+
+
+
+
+
+
+.f-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1vw;
+  padding-bottom: 1vw;
+  border-bottom: 4px solid black;
+}
+/* SECOND SECTION FRENCHIES */
+
+
+
+
+
+
+/* THIRD SECTION YORKSHIRE */
+#emp {
+  height: 12vw;
+  margin: 1vw;
+}
+
+.york {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* THIRD SECTION YORKSHIRE */
+
+
+
+
+
+
+/* FOURTH SECTION GINO*/
+#gino {
+  width: 45vw;
+  border: 4px solid black;
+  border-radius: 1.5vw;
+  margin: auto;
+  margin-top: 1.5vw;
+}
+/* FOURTH SECTION GINO*/
+
+
+
+
+/* FIFTH SECTION METRO*/
+#metro {
+  width: 15vw;
+  margin: 1vw;
+}
+
+.m-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* last SECTION adopt*/
+ .button {
+  background-color: rgb(1, 196, 63);
+  color: rgb(255, 255, 255);
+  font-size: 3vw;
+  font-weight: 900;
+  width: 18vw;
+  text-align: center;
+  padding: 1vw;
+  border-radius: 20vw;
+  margin: auto;
+  margin-top: 1.5vw;
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
+ }
+
+ .button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ }
+
+ /* last SECTION adopt*/
+
+
+
+
+ /* NAME GENERATOR*/
+.button-2 {
+  background-color: rgb(100, 240, 255);
+  color: rgb(255, 255, 255);
+  font-size: 3vw;
+  font-weight: 900;
+  width: 18vw;
+  text-align: center;
+  padding: 1vw;
+  border-radius: 20vw;
+  margin: auto;
+  margin-top: 1.5vw;
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.button-2:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(100, 196, 255);
+ }
+
+ .name {
+  font-size: 4vw;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+ }
+
+
