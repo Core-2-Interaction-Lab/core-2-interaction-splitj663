@@ -2,7 +2,9 @@
 body {
   font-family: helvetica, sans-serif;
   font-weight: bolder;
-  transition: all .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  line-height: 1.9vw;
+  letter-spacing: -.06vw;
 }
 
 a:link {
@@ -22,7 +24,7 @@ a:active{
   position: fixed;
   left: 15vw;
   right: 15vw;
-  bottom: 125px;
+  top: 19vw;
   display: flex;
   flex-direction: column;
   justify-content:flex-end;
@@ -33,12 +35,13 @@ a:active{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 400px;
+  font-size: 25vw;
+  padding-bottom: 15vw;
 }
 
 .punctuation {
   text-align: center;
-  transition: all .1s ease-in-out;
+  transition: transform .1s ease-in-out;
   cursor: pointer;
 }
 
@@ -74,8 +77,8 @@ a:active{
 .text_container {
   margin-top: 1vw;
   color: black;
-  font-size: 30px;
-  font-weight: normal;
+  font-size: 1.6vw;
+  font-weight:100
 }
 
 
@@ -98,7 +101,7 @@ a:active{
 
 
 .nav {
-  margin-top: 780px;
+  margin-top: 44vw;
   margin-left: 11.8vw;
   margin-right: 11.8vw;
   display:flex;
@@ -112,7 +115,7 @@ a:active{
   font-size: 50px;
   color: rgb(35, 35, 251);
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: transform .3s ease-in-out;
 }
 
 

@@ -27,13 +27,13 @@ a:active{
   font-size: 400px;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 8%;
+  padding-top: 7%;
 }
 
 
 .punctuation {
   text-align: center;
-  transition: all .1s ease-in-out;
+  transition: transform .1s ease-in-out;
   cursor: pointer;
 }
 
@@ -43,7 +43,6 @@ a:active{
 
 
 .title_container {
-  margin-top: 100px;
   background-color: black;
   position: fixed;
   bottom: 0;
